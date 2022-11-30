@@ -6,7 +6,7 @@ const MovieCard = ({ movie }) => {
     window.location = `https://www.2embed.to/embed/tmdb/movie?id=${movie.id}`;
   };
   return (
-    <Box sx={{ marginLeft: "1vw" }}>
+    <Box sx={{ marginLeft: "1vw", marginTop: "1vh" }}>
       <Box
         onClick={movieInfo}
         width="8vw"

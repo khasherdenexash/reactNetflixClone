@@ -49,7 +49,7 @@ const FetchData = () => {
         <Box
           sx={{
             display: "flex",
-            width: "14vw",
+            width: "20vw",
             justifyContent: "space-between",
             marginLeft: "1vw",
           }}
@@ -60,6 +60,7 @@ const FetchData = () => {
             variant="standard"
             sx={{
               height: "4vh",
+              width: "12vw",
               backgroundColor: "#000",
               input: { color: "#fff", backgroundColor: "#000" },
             }}
@@ -73,7 +74,7 @@ const FetchData = () => {
               ),
             }}
           />
-          <Button sx={{ height: "3vh" }} type="submit" variant="outlined">
+          <Button sx={{ height: "4vh" }} type="submit" variant="outlined">
             SUBMIT
           </Button>
         </Box>

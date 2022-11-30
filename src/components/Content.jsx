@@ -47,6 +47,10 @@ const Content = () => {
             }}
             startIcon={<PlayArrow />}
             variant="contained"
+            onClick={() =>
+              (window.location =
+                "https://www.youtube.com/watch?v=gvxNaSIB_WI&t=4s&ab_channel=Netflix")
+            }
           >
             PLAY
           </Button>
