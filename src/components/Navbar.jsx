@@ -15,11 +15,18 @@ const Navbar = () => {
         display: "flex",
         width: "100vw",
         backgroundColor: "#000",
-        height: "7vh",
+        height: "6vh",
       }}
     >
       {/* Left Section */}
-      <Box sx={{ width: "55vw", display: "flex", justifyContent: "flex-end" }}>
+      <Box
+        sx={{
+          width: "55vw",
+          display: "flex",
+          justifyContent: "flex-end",
+          alignItems: "center",
+        }}
+      >
         <Box
           sx={{
             display: "flex",
