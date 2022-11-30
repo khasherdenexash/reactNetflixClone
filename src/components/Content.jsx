@@ -5,10 +5,10 @@ import { Stack } from "@mui/system";
 
 const Content = () => {
   return (
-    <Box sx={{ height: "93vh", width: "100vw" }}>
+    <Box sx={{ height: "94vh", width: "100vw" }}>
       <CardMedia
         sx={{
-          height: "93vh",
+          height: "94vh",
           objectFit: "cover",
           position: "absolute",
         }}
